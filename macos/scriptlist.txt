@@ -1,0 +1,1 @@
+Homebrew.sh            | installs homebrew on a compatible device
