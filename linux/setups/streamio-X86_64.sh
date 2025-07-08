@@ -41,13 +41,13 @@ echo "You can run Streamio using the command: flatpak run io.streamio.Streamio"
 echo "Or you can find it in your application menu."
 echo " "
 echo "Enjoy your streaming experience with Streamio!"
-exit
+
 
 read -p "Do you want to open the torrentio website?(y/n) : " choice
 case "$choice" in
   y|Y ) xdg-open "https://torrentio.strem.fun/configure";;
   n|N ) echo ""
-  * ) echo "Invalid input. Please enter y or n."; exit 1;;
+  * ) echo "Invalid input. Please enter y or n."; echo "worked";;
 esac
 
 read -p "Do you want to reboot? (y/n): " choice
